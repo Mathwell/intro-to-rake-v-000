@@ -50,5 +50,9 @@ class Student
     sql = "SELECT * FROM students" 
     DB[:conn].execute(sql)
   end
+  
+  task :hello do 
+  puts "hello from Rake!"
+ end
 
 end
